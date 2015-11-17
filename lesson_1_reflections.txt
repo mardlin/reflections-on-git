@@ -35,7 +35,3 @@ your programs, knowing you can get back to a working state easily.
 
 Just a text document. Or maybe P2.
 
-# What happens when you initialize a repository? Why do you need to do it?
-
-A `.git` folder is created. There are no commits at first.
-You need to do it to prepare git for tracking.

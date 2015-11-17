@@ -1,0 +1,11 @@
+# What happens when you initialize a repository? Why do you need to do it?
+A `.git` folder is created. There are no commits at first.
+You need to do it to prepare git for tracking.
+
+# How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+The staging area only contains the files that you want to add ot the next 
+commit and it lets you inspect what you're actually about to commit. 
+
+
