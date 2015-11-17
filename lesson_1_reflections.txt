@@ -1,0 +1,41 @@
+# How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+1. Faster and easier to find where a change was introduced. 
+2. Easily revert to the last point in time that things were working
+3. Know who to talk to about changes you don't understand
+
+# What do you think are the pros and cons of manually choosing when to create a 
+commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: 
+- It's easier to collect together the changes that make sense to you.
+- You can save at a working stage, and revert to it if need be
+
+Cons: 
+- You might forget to commit
+- You might go overboard with commits
+
+# How can you use the commands git log and git diff to view the 
+history of files?
+
+git log will give a summary of the previous commits with descriptions
+
+git diff shows the differences within files between two commits (ie. which 
+lines were changed. 
+
+# How might using version control make you more confident to make changes that 
+could break something?
+
+I will know that I can easily backtrack, to a working state.
+This allows the freedom to explore a larger space and take bigger risks in 
+your programs, knowing you can get back to a working state easily.
+ 
+# Now that you have your workspace set up, what do you want to try using Git for?
+
+Just a text document. Or maybe P2.
+
+# What happens when you initialize a repository? Why do you need to do it?
+
+A `.git` folder is created. There are no commits at first.
+You need to do it to prepare git for tracking.
