@@ -35,3 +35,18 @@ your programs, knowing you can get back to a working state easily.
 
 Just a text document. Or maybe P2.
 
+# What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+
+Merging two branches combines their changes from each of their commits into one 
+branch. The commits are shown in the log in chronological order. You can use 
+`git show commitid` to see what changes were made in a commit. The merge commit
+two parents which are the last commit from each branch. 
+
+# What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+Removes possibility of error. Faster.
+
+
+
